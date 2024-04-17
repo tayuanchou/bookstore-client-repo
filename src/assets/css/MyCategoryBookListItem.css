@@ -1,0 +1,74 @@
+li.book-box {
+    padding: 10px 20px;
+    margin: 0;
+    height: 400px;
+    min-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1 1 200px;
+    /*position: relative;*/
+    /*border: 2px solid white;*/
+}
+
+li.book-box img {
+    width: 150px;
+    height: 200px;
+}
+
+li.book-box .book-author,
+li.book-box .book-title,
+li.book-box .book-price {
+    text-align: center;
+    /*border: 2px solid orange;*/
+}
+
+li.book-box .book-title,
+li.book-box .book-price {
+    font-weight: 600;
+
+    /*border: 2px solid darkblue;*/
+}
+
+li.book-box .book-title {
+    margin-top:0.3rem;
+}
+
+li.book-box button {
+    font-size: 1rem;
+    background-color: #0c128a;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 0.2rem;
+}
+
+li.book-box button:hover,
+li.book-box .book-image .img-read button.read-button:hover {
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+
+.book-image {
+    position: relative;
+}
+
+li.book-box .book-image .img-read button svg {
+    background-image: url("../images/categories/icons8-list-64.png");
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+li.book-box .book-image .img-read button.read-button {
+    position: absolute;
+    bottom: -0.3rem;
+    right: -0.5rem;
+    background-color: #0c128a;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 0.2rem;
+}

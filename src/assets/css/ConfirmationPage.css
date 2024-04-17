@@ -1,0 +1,49 @@
+.confirmation-page-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmation-header,
+.confirmation-details {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #1d97c5;
+    border: solid 2px #1a2a39;
+}
+
+.confirmation-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.confirmation-details li {
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.confirmation-details label {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+.confirmation-header {
+    text-align: center;
+    color: white;
+}
+
+.confirmation-details input,
+.confirmation-details select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    outline: none;
+}
+
+.error {
+    color: darkred;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+}

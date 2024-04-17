@@ -1,0 +1,114 @@
+main {
+    min-height: calc(100vh - 230px);
+    background-color: #3d9ab7;
+    z-index: 0;
+    min-width: 1000px;
+}
+
+main nav.headerNav {
+    height: 50px;
+    min-width: 1000px;
+    background-color: #1a2a39;
+}
+main nav.headerNav ul {
+    padding: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+main nav.headerNav ul li,
+main nav.headerNav ul .dropdown-button li{
+    /*flex: 5 1 400px;*/
+    padding: 0.3rem 0.1rem;
+    margin: 0.2rem;
+
+}
+
+main nav.headerNav ul li a {
+    padding: 0.3rem 0.7rem;
+    background-color: #265c7a;
+    text-align: center;
+    width: 15%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.35rem;
+    /*border: 2px solid red;*/
+}
+
+
+.user-icon {
+    background-image: url("../images/site/userIcon.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+main nav ul li a.login {
+    background-color: #1d97c5;
+}
+
+main nav ul li a.active {
+    padding: 0.3rem 1rem;
+    background-color: #1044d5;
+    text-align: center;
+    width: 15%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.35rem;
+}
+
+.check-out {
+    background-color: #3f20ca;
+}
+
+.cart {
+    background-image: url("../images/site/cart.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+main nav ul li span.count {
+    font-size: 1.35rem;
+    color: white;
+    position: relative;
+    top: -15px;
+    left: -22px;
+    padding: 0.1rem 0.5rem;
+    background-color: rgb(215, 11, 45);
+    border-radius: 50%;
+}
+
+main h2 {
+    padding: 1rem 2rem;
+    display: inline;
+}
+main h2 a {
+    margin-left: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    background-color: indianred;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+main h2 a:hover {
+    background-color: white;
+    color: indianred;
+}
+
+.bookShowcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+

@@ -1,0 +1,110 @@
+.header {
+    min-height: 150px;
+    /*width: 100vw;*/
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+}
+
+.header div.background-img {
+    /* min-height: 150px; */
+    height: 300px;
+    width: 100%;
+    max-width: 3000px;
+    min-width: 1000px;
+    position: absolute;
+    background-image: url("../images/site/juan-gomez-tgrwlTZXEtw-unsplash.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-origin: border-box;
+    filter: contrast(150%);
+    filter: brightness(75%);
+    z-index: -1;
+}
+
+.header .leftside-header {
+    margin-right: auto;
+}
+
+.header .leftside-header a.logolink {
+    text-decoration: none;
+    width: 50vw;
+}
+
+img.logo {
+    margin-left: 2rem;
+    margin-right: 0rem;
+    position: relative;
+    top: 25px;
+}
+
+h1.HeaderText {
+    margin-left: 0rem;
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.rightside-header {
+    align-self: center;
+}
+
+.rightside-header form {
+    padding-right: 0;
+    /*border: 2px solid red;*/
+}
+
+.rightside-header form input {
+    width: 20rem;
+    height: 2.5rem;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1.35rem;
+    border: none;
+}
+
+.rightside-header form button {
+    background-color: #98a1b8;
+    height: 90%;
+    border-radius: 10px;
+    border: 0.01rem solid black;
+    position: relative;
+    left: -123px;
+    padding: 0.3rem;
+}
+
+.rightside-header form button:hover {
+    background-color: #265c7a;
+    color: white;
+}
+
+.rightside-header form button #Search {
+    font-size: 1.35rem;
+    width: 7rem;
+}
+
+.search-icon {
+    background-image: url(../images/site/searchIcon.svg);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+.search-icon {
+    background-image: url(../images/site/searchIcon.svg);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+}

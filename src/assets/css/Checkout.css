@@ -1,0 +1,81 @@
+.checkout-page-body {
+    display: flex;
+    /*border: solid 2px red;*/
+    justify-content: space-evenly;
+}
+
+.payment-information,
+.order-summary{
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #1d97c5;
+    border: solid 2px #1a2a39;
+}
+
+.payment-information div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0.5rem;
+    /*border: solid 2px white;*/
+    justify-self: flex-start;
+}
+
+.payment-information label {
+    margin-bottom: 0.5rem;
+}
+
+.payment-information input,
+.payment-information select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    /*border: 1px solid #ccc;*/
+    border-radius: 4px;
+    outline: none;
+}
+
+.expiration-selectors {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Adjust the gap between selectors as needed */
+}
+
+.expiration-selector {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-information .error,
+.order-summary .error{
+    color: darkred;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+}
+
+.order-summary-item {
+    margin: 0.5rem;
+    /*border: solid 2px red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*.order-summary-item h3.order-summary-row {*/
+/*    */
+/*}*/
+
+button.complete-purchase {
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: indianred;
+    color: white;
+    border: none;
+    margin: 0.5rem;
+}
+
+button.complete-purchase:hover {
+    background-color: white;
+    color: indianred;
+    cursor: pointer;
+}

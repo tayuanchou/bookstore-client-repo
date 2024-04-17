@@ -1,0 +1,54 @@
+footer {
+    height: auto;
+    background-color: #2e2b3d;
+    margin: 0rem;
+    min-width: 1000px;
+}
+
+footer ul {
+    padding: 0.3rem;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer ul li {
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+
+footer ul li h3 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer ul li h3 .brand {
+    align-content: center;
+    height: 100%;
+    line-height: 200%;
+}
+
+footer ul li h3 svg.bookstore-icon {
+    background-image: url("../images/site/open-book.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer ul li a img {
+    padding: 0.5rem 0.3rem;
+    width: 55px;
+}

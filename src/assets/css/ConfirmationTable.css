@@ -1,0 +1,61 @@
+.confirmation-summary {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    align-items: center;
+}
+
+ul.confirmation-box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin: 3rem;
+    height: auto;
+    width: 100%;
+    min-width: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: center;
+    flex: 1 1 200px;
+    /*border: 2px solid white;*/
+}
+
+ul.confirmation-box li.confirmation-heading {
+    background-color: #1044d5;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid grey;
+}
+
+ul.confirmation-box li div.heading-book,
+ul.confirmation-box li div.heading-name,
+ul.confirmation-box li div.heading-price,
+ul.confirmation-box li div.heading-quantity,
+ul.confirmation-box li div.heading-subtotal {
+    width: 20%;
+    text-align: center;
+}
+
+ul.confirmation-box li.confirmation-item {
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 2px solid orange;*/
+    width: 100%;
+    /*padding: 1rem;*/
+    background-color: #1d97c5;
+    border: 2px solid grey;
+}
+li.subtotal {
+    margin-top: 0.5rem;
+    list-style-type: none;
+    font-size: 1.35rem;
+    align-self: self-end;
+}
+

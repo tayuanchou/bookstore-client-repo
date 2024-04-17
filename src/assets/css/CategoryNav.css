@@ -1,0 +1,50 @@
+.categories-nav {
+    margin: 0;
+    background-color: #3d9ab7;
+    /*border: 2px solid orange;*/
+}
+
+.categories-nav ul {
+    align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+}
+
+.categories-nav ul li {
+    list-style: none;
+    margin: 0.5rem;
+    /*border: 2px solid deeppink;*/
+}
+
+ .categories-nav ul li a{
+     text-decoration: none;
+     font-size: 1.35rem;
+     color: white;
+     background-color: rgb(63, 94, 151);
+     margin: 0.3rem 0.5rem;
+     padding: 0.3rem 1rem;
+     border-radius: 10px;
+     text-align: center;
+     /*border: 2px solid red;*/
+}
+
+.categories-nav ul li a.active {
+    background-color: white;
+    color: rgb(63, 94, 151);
+    border: 2px solid rgb(63, 94, 151);
+}
+
+.categories-nav ul li img{
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 0.1rem;
+}
+
+ .categories a.active {
+    background-color: #1044d5;
+}
